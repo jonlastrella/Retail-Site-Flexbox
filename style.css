@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.top-nav-links {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+.top-nav-links ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-nav-links ul li {
+  padding: 0 10px;
+}
+.top-nav-links ul li a {
+  color: black;
+}
+.top-nav-links ul li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+nav {
+  display: flex;
+  margin-left: 5%;
+}
+nav ul {
+  display: flex;
+  margin-left: 25px;
+  align-items: center;
+}
+nav ul li {
+  padding: 0 20px;
+}
+nav ul li a {
+  color: black;
+}
+nav ul li a:hover {
+  color: red;
+}
+/* vipeak */
+.vipeak {
+  text-align: center;
+  background-color: black;
+  padding: 7px 0;
+  margin-top: 10px;
+}
+.vipeak a {
+  font-size: 14px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+/* vipeak */
+/* banner */
+.banner-links {
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-buttons {
+  display: flex;
+  width: 77%;
+  justify-content: space-between;
+}
+.info {
+  margin-top: 15%;
+}
+.info h1 {
+  font-size: 84px;
+  width: 80%;
+}
+.info p {
+  font-size: 20px;
+  width: 55%;
+  margin-bottom: 20px;
+}
+.info a {
+  border: 1px solid whitesmoke;
+  padding: 5px 8px;
+  color: White;
+  background-color: black;
+}
+/* banner */
+/* banner2 */
+.banner2 {
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+  display: flex;
+}
+.banner2-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner2 h1 {
+  font-size: 40px;
+  width: 55%;
+}
+.banner2 p {
+  margin: 20px 0;
+}
+.banner2-buttons {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.banner2-buttons a {
+  border: 1px solid black;
+  padding: 5px 8px;
+  color: black;
+}
+.banner2-buttons a:hover {
+  color: whitesmoke;
+  background-color: black;
+  border: 1px solid whitesmoke;
+}
+.banner2 img {
+  width: 70%;
+  height: 50vh;
+}
+/* banner2 */
+/* banner3 */
+.banner3 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 70vh;
+  margin: auto;
+  margin-top: 1%;
+}
+.banner3-links {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 100px;
+}
+.banner3-buttons {
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+}
+.banner3-buttons a {
+  border: 1px solid black;
+  padding: 5px 8px;
+  color: black;
+}
+.banner3-buttons a:hover {
+  color: whitesmoke;
+  background-color: black;
+  border: 1px solid whitesmoke;
+}
+.banner3 h1 {
+  font-size: 40px;
+  width: 55%;
+}
+.banner3 p {
+  margin: 20px 0;
+}
+.banner3 img {
+  width: 100%;
+  height: 100%;
+}
+.banner3 h2 {
+  font-size: 50px;
+}
+/* banner3 */
+/* explore */
+.explore {
+  text-align: center;
+  padding: 100px 0;
+}
+.explore h1 {
+  font-size: 50px;
+}
+.explore p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.explore a {
+  border: 1px solid black;
+  color: black;
+  padding: 5px 8px;
+}
+.explore a:hover {
+  color: whitesmoke;
+  background-color: black;
+  border: 1px solid whitesmoke;
+}
+.ten {
+  font-weight: bold;
+}
+/* explore */
